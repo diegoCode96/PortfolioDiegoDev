@@ -2,7 +2,7 @@ import { useState } from "react";
 
 const Nav = () => {
   const links = [
-    { name: "home", link: "/" },
+    { name: "home", link: "#home" },
     { name: "projects", link: "#info" },
     { name: "about me", link: "#about" },
     { name: "contact me", link: "#footer" },
