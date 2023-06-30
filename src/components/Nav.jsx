@@ -29,7 +29,7 @@ const Nav = () => {
         <ul className={`md:flex md:items-center md:pb-0 pb-12 absolute md:static bg-[#fff]  sm:bg-gray-950 md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-4 transition-all duration-500 ease-in ${open ? "top-20 hidden": "top-[70px]"} `}>
           {links.map((link) => (
             <li key={link.name} className="capitalize md:ml-8 text-lg  md:my-0 my-7 ">
-              <a
+              <a onClick={() => setOpen(!open)}
                 href={link.link}
                 className="text-gray-900 sm:text-[#fff] hover:text-gray-400 duration-500"
               >
