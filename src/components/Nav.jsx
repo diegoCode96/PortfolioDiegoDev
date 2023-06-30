@@ -19,7 +19,7 @@ const Nav = () => {
             <img  src="/images/logo.png" alt="" />
           </div>
 
-          <h2 className="text-[#fff]">Diego Dev</h2>
+          <h1 className="text-[#fff]">Diego Dev</h1>
         </div>
         <div onClick={() => setOpen(!open)} className="text-3xl text-[#fff] absolute right-8 top-6 cursor-pointer md:hidden">
           <ion-icon name={open ? "menu":"close"}></ion-icon>

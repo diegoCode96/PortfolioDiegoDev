@@ -21,10 +21,10 @@ function App() {
           />
         </div>
         <article className="text-[#fff] mx-5 sm:mx-10 sm:row-[1] ">
-          <h1 className="text-[30px] sm:text-[50px] sm:font-bold leading-8 sm:leading-tight mb-10">
+          <h2 className="text-[30px] sm:text-[50px] sm:font-bold leading-8 sm:leading-tight mb-10">
             <span className="text-[#9BA4ED]">Hi! </span>I'am a frontend
             developed.
-          </h1>
+          </h2>
           <p className=" font-normal leading-4 mb-5 text-sm sm:text-base ">
             Welcome to my portfolio! I'm a passionate frontend developer with
             expertise in React, JavaScript, HTML, and CSS. With a strong
