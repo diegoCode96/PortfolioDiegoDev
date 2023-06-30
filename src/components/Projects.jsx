@@ -7,7 +7,7 @@ const Projects = () => {
   ];
 
   return (
-    <article id="info"  className="flex justify-center items-center bg-gray-800/40 mx-10 sm:mx-32 sm:p-8 p-6  rounded-lg sm:mt-2 relative">
+    <article id="info"  className="flex justify-center items-center bg-gray-800/40 mx-10 sm:mx-32 sm:p-8 p-6  rounded-lg sm:mt-2 relative z-10">
       <img className="absolute sm:right-[40rem] sm:-bottom-[12rem] w-[50rem] h-[50rem]" src="/images/frame2.png" alt="" />
       <ul className="text-[#fff] flex flex-col sm:flex-row  gap-6 sm:gap-10 ">
         {linksPro.map((link) => (
