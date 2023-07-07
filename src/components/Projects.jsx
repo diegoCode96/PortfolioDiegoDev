@@ -1,3 +1,4 @@
+import { motion } from "framer-motion";
 const Projects = () => {
   const linksPro = [
     { name: "pokedex", link: "https://pokedex93.netlify.app", icon: "bowling-ball-outline" },
@@ -11,7 +12,7 @@ const Projects = () => {
       <img className="absolute -z-10 sm:right-[40rem] sm:-bottom-[12rem] w-[50rem] h-[50rem]" src="/images/frame2.png" alt="" />
       <ul className="text-[#fff] flex flex-col sm:flex-row  gap-6 sm:gap-10 ">
         {linksPro.map((link) => (
-          <li className="rounded-lg overflow-hidden text-xl capitalize"
+          <motion.li whileHover={{ scale: 1.2 }} whileTap={{ scale: 0.8 }} className="rounded-lg overflow-hidden text-xl capitalize"
             key={link.name}       
           >
             
@@ -20,7 +21,7 @@ const Projects = () => {
               {link.name}
             </a>
             
-          </li>
+          </motion.li>
         ))}
       </ul>
     </article>
